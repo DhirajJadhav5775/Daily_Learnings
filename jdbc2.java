@@ -27,9 +27,9 @@ public class jdbc2
     public static void main(String args[])
     {
         System.out.println("JDBC Program");
-        String url = "jdbc:mysql://localhost:3306/practise";
-        String username = "root";
-        String password = "Dhiraj@5775";
+        String url = "jdbc:mysql://localhost:port/mydb";
+        String username = "rootusername";
+        String password = "pass123";
 
         JDBCconnection(url,username,password);
     }
