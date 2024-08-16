@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean id="Alienobj" class="com.dhiraj.Alien">
+        <property name="Salary" value="45000"/>
+        <property name="Name" value="Dhiraj"/>
+        <property name="Weight" value="68"/>
+        <property name="demo" ref="Demo"/>
+    </bean>
+    <bean id="Demo" class="com.dhiraj.Demo">
+
+    </bean>
+</beans>
