@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-custom {
+    width: 200px;
+    font-size: 18px;
+}
+.nav-item
+{
+    
+}
+.navbar-nav .nav-link {
+    color: white;  /* Color when hovered */
+}
+.carousel-inner
+{
+    margin-left: 100px;    
+    padding-right: 200px;
+} 
+.carousel-inner img {
+    height: 300px;  /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
